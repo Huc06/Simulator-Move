@@ -295,7 +295,7 @@ const Deploy = () => {
                             {deploymentInfo && (
                                 <div className="mt-4 p-4 bg-gray-800 text-white rounded-lg">
                                     <h3 className="text-lg font-semibold">Deployment Info:</h3>
-                                    <pre className="whitespace-pre-wrap">{deploymentInfo}</pre>
+                                    <pre className="whitespace-pre-wrap break-words">{deploymentInfo}</pre>
 
                                 </div>
                             )}
